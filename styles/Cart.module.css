@@ -46,6 +46,7 @@
   color: white;
 }
 
+
 .totalTextTitle {
   margin-right: 10px;
 }
@@ -118,6 +119,21 @@
   .wrapper {
     width: 100%;
   }
+}
 
+.paymentMethod{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
 
+.payButton{
+  padding: 10px 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color: white;
+  color: teal;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
 }
